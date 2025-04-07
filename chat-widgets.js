@@ -614,12 +614,12 @@
             <h2 class="registration-title">Please enter your details to start chatting</h2>
             <form class="registration-form">
                 <div class="form-field">
-                    <label class="form-label" for="chat-user-name">Name</label>
+                    <label class="form-label" for="chat-user-name" style="color: black;>Name</label>
                     <input type="text" id="chat-user-name" class="form-input" placeholder="Your name" required>
                     <div class="error-text" id="name-error"></div>
                 </div>
                 <div class="form-field">
-                    <label class="form-label" for="chat-user-email">Email</label>
+                    <label class="form-label" for="chat-user-email" style="color: black;>Email</label>
                     <input type="email" id="chat-user-email" class="form-input" placeholder="Your email address" required>
                     <div class="error-text" id="email-error"></div>
                 </div>
