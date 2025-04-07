@@ -545,13 +545,13 @@
             welcomeText: '',
             responseTimeText: '',
             poweredBy: {
-                text: 'Powered by AnovoxLabs', // Updated to your branding
-                link: 'https://anovoxlabs.com' // Updated to your website
+                text: 'Powered by AnovoxLabs', // My Branding
+                link: 'https://anovoxlabs.com' // My Website
             }
         },
         style: {
             primaryColor: '#10b981', // Green
-            secondaryColor: '#059669', // Darker green
+            secondaryColor: '#a78bfa', // Lavender-purple
             position: 'right',
             backgroundColor: '#ffffff',
             fontColor: '#1f2937'
