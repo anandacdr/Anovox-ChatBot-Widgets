@@ -2,7 +2,7 @@
 <script>
     window.ChatWidgetConfig = {
       webhook: {
-        url: 'https://sandylon.app.n8n.cloud/webhook/ec9c6e7f-2efd-42f7-ac10-5be83abadf72/chat',
+        url: 'https://pictures.app.n8n.cloud/webhook/ec9c6e7f-2efd-42f7-ac10-5be83abadf72/chat',
         route: 'general'
       },
       branding: {
@@ -13,14 +13,18 @@
       },
       style: {
         primaryColor: '#10b981',
-        secondaryColor: '#059669',
+        secondaryColor: '#a78bfa',
         position: 'right',
         backgroundColor: '#ffffff',
         fontColor: '#1f2937'
-      }
-      // Add Suggested Questions that users can click
+      },
+      suggestedQuestions: [
+        "What services does AnovoxLabs offer?",
+        "How can I contact support?",
+        "What are your pricing plans?"
+      ]
     };
 </script>
 
-<script src="https://cdn.jsdelivr.net/gh/anandacdr/Anovox-ChatBot-Widgets@main/chat-widgets.js"></script>
-
+<!-- DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
+<script src="https://cdn.jsdelivr.net/gh/anandacdr/chatbot-widgets@main/chatbot-widgets.js?v=1" async></script>
